@@ -1,0 +1,16 @@
+
+
+   body{
+       background-color: rgb(114, 114, 114);
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       text-align: justify;
+         }
+    p{
+       color: aliceblue; 
+    } 
+    h1{
+        color: rgb(174, 255, 235);
+        
+        background-color: burlywood;
+    }
+   

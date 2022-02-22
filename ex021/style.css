@@ -1,0 +1,52 @@
+@charset  "UTF-8";
+body{
+  background-color: coral;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+}
+
+header{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    
+    margin: 1px ;
+    padding: 0px;
+    text-align: top;
+     
+}
+
+nav{
+    background-color: cadetblue;
+}
+
+nav >a {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: left;
+    margin: 15px; 
+}
+nav >a:hover{
+    background-color: chartreuse;
+    color: blue;
+    text-decoration: underline;
+    
+}
+nav >a::selection{color: brown;}
+section{
+    margin: 5px;
+}
+#futebol{
+    background-color: aquamarine;
+    width: 600px;
+}
+#tenis{
+    background-color: blueviolet;
+    width: 600px;
+
+}
+footer{
+    background-color: rgb(39, 37, 37);
+    height: 70px;
+    text-align: center;
+}

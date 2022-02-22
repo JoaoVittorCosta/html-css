@@ -1,0 +1,29 @@
+@charset "UTF-8" ;
+/* aqui no css # é para id
+   e . é para class
+*/
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #aab4d3;
+}
+#principal{
+    text-align: center;
+    background-color:#444854;
+    color: #B6C0E0;
+}
+h1{
+    color: #787F94;
+    background-color: #D9B57A;
+}
+h2{
+    color: #877952;
+}
+.intermediario{
+    color: #7F72A1;
+}
+.avancado{
+    color: #3F2D6E;
+}
+p{
+    text-align: justify;
+}

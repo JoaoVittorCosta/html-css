@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+    <style>
+        div{
+            display: inline-block;
+        text-align: center;
+        background-color: aquamarine;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+     
+        }
+        div:hover{
+            background-color: blueviolet;
+        }
+        div >ol{
+          display: none;
+        }
+        div:hover >ol{
+            display:block ;
+        }
+    </style>
+</head>
+<body>
+ <div>Item1
+    <ol>
+        <li>comprar feijão</li>
+        <li>comprar arroz</li>
+    </ol>
+ </div>
+ <div>Item2</div>
+ <div>item3</div>
+    
+</body>
+
+</html>
