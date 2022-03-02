@@ -15,13 +15,13 @@
             border-collapse: collapse;
            
         }
-        td{
+        td,th{
             border: 1px solid black;
             padding: 5px;
             
         }
         
-        thead{
+        th{
             background-color: rgba(51, 48, 48, 0.473);
             color: white;
             text-align: center;
@@ -35,12 +35,12 @@
 <body>
     <table>
         <thead>
-            <th>
+           
                 <tr>
-                    <td>Estado</td>
-                    <td>População</td>
+                    <th scope="col" style="width: 200px;">Estado</th>
+                    <th scope="col" style="width: 100px;">População</th>
                 </tr>
-            </th>
+         
         </thead>
         <tbody>
             <tr>
@@ -118,12 +118,10 @@
 
         </tbody>
         <tfoot>
-            <th>
                 <tr>
-                    <td>TOTAL</td>  
-                    <TD class="num">1000000</TD>
+                    <th scope="row">TOTAL</th>  
+                    <td class="num">1000000</td>
                 </tr>
-            </th>
 
         </tfoot>
     </table>
